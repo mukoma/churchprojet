@@ -1,0 +1,253 @@
+body {
+     background: url('nature.jpeg') no-repeat;
+     background-size: cover;
+     font-family: Ariel;
+     color: white;
+     line-height:1;
+     }
+/*Global*/
+.container{
+   width:97%;
+   margin:auto;
+   overflow:help;
+}
+.button_1{
+ height:35px;
+ background:#e8491d;
+ border:0;
+ padding-left: 20px;
+ padding-right:20px;
+ color:#ffffff;
+}
+
+/* header**/
+
+header{
+   background:#35424a;
+   color:#ffffff;
+   padding:0px;
+   padding-top:10px;
+   min-height:50px;
+   /*border-top:#e8491d 3px solid;
+   border-left:#e8491d 4px solid;
+   border-right:#e8491d 4px solid;*/
+   border-bottom:#e8491d 3px solid;
+   
+} 
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+ul li {
+   float: left;
+   width: 210px;
+   height: 40px;
+   background-color: Black;
+   opacity: .8;
+   line-height: 40px;
+   text-align: center;
+   font-size: 20px;
+   margin-right: 5px;
+   border-top:#e8491d 3px solid;
+   border-bottom:#e8491d 2px solid;
+   border-left:#e8491d 1px solid;
+   border-right:#e8491d 1px solid;
+   
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+     background-color: green;
+}
+
+ul li ul li {
+   display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+header ul{
+     margin:0px;
+	 padding:0px;
+}
+
+header .highlight, header .current a{
+   color:#e8491d;
+   font-weight:bold;
+}
+
+header a:hover{
+  color:cccccc;
+  font-weight:bold;
+
+}
+/* showcase */
+#showcase h1{
+   margin-top:100px;
+   font-size:60px;
+   margin-bottom:5px;
+}
+
+/*gallery*/
+.container1{
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-bottom: 40%;
+  background: #4c4c4c;
+  border: solid 10px #2c2c2c;
+  
+}
+.slide_img{
+   position: absolute;
+   width:100%;
+   height: 100%;
+   
+}
+.slide_img img{
+    width: 100%;
+	height: 100%;
+}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12{
+     display: none;
+}
+.Pre, .Next{
+   width: 60px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   background: rgba(88,88,88,.4);
+   z-index: 99;
+   cursor: pointer;
+}
+.Pre{
+  left:0;
+}
+.Next{
+  right: 0;
+}
+.nav{
+  width: 100%;
+  height: 11px;
+  bottom: 12%;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+.dots{
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgba(0,0,0,.6);
+}
+.slide_img{
+   z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five,
+#i6:checked ~ #six,
+#i7:checked ~ #seven,
+#i8:checked ~ #eight,
+#i9:checked ~ #nine,
+#i10:checked ~ #ten,
+#i11:checked ~ #eleven,
+#i12:checked ~ #twelve{
+   z-index: 20;
+}
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4,
+#i5:checked ~ .nav #dot5,
+#i6:checked ~ .nav #dot6,
+#i7:checked ~ .nav #dot7,
+#i8:checked ~ .nav #dot8,
+#i9:checked ~ .nav #dot9,
+#i10:checked ~ .nav #dot10,
+#i11:checked ~ .nav #dot11,
+#i12:checked ~ .nav #dot12 {
+    background: #2ecc71;
+}
+
+/* daily_script*/
+#Daily_Script {
+    padding-top:5px;
+	padding:30px;
+    color:#ffffff;
+    opacity: .8;
+    background:#35424a;
+	margin-top:0px;
+	margin: 90px;
+    min-height:30px;
+    text-align: center;
+    border-bottom:#e8491d 15px solid;
+	border-top:#e8491d 15px solid;
+	border-left:#e8491d 10px solid;
+	border-right:#e8491d 10px solid;
+}
+
+#Daily_Script h1{
+   float:left;
+}
+
+#Daily_Script form {
+   float:right;
+   margin-top:15px;
+}
+
+#Daily_Script input[type="email"]{
+  padding:4px;
+  height:25px;
+  weight: 250px;
+}
+ /* boxes */
+ 
+ #boxes {
+    margin-top:20px;
+ }
+ #boxes .box{
+ float:left;
+ text-align:center;
+ width:30%;
+ padding:10px;
+ 
+ }
+ #boxes .box img{
+    width:150px;
+	
+ }
+ 
+ footer{
+   padding-top:20px;
+   margin-top:20px;
+   color:#ffffff;
+   min-height:20px;
+   opacity: .8;
+   min-height:30px;
+   text-align: center;
+   background:#35424a;
+   border-bottom:#e8491d 3px solid;
+   border-left:#e8491d 4px solid;
+   border-right:#e8491d 4px solid;
+}
+
+
