@@ -175,6 +175,7 @@ header a:hover{
 #i12:checked ~ #twelve{
    z-index: 20;
 }
+
 #i1:checked ~ .nav #dot1,
 #i2:checked ~ .nav #dot2,
 #i3:checked ~ .nav #dot3,
